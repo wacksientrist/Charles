@@ -1,6 +1,6 @@
-# Charles
+# My Chatbot
 
-This is a chatbot that uses ChatterBot for basic conversation and GPT-2 for more advanced responses. It also learns from GPT-2 over time to become similar. I hope you enjoy!
+This is a chatbot that uses ChatterBot for basic conversation and GPT-2 for more advanced responses.
 
 ## Installation
 
@@ -10,29 +10,31 @@ This is a chatbot that uses ChatterBot for basic conversation and GPT-2 for more
     cd my-chatbot-repo
     ```
 
-2. Ensure you have Python 3.8.19 installed. You can use `pyenv` to manage Python versions:
-    ```sh
-    pyenv install 3.8.19
-    pyenv local 3.8.19
-    ```
+2. Ensure you have Python 3.8.19 installed. You can use `pyenv` to manage Python versions on Unix-like systems, or follow the instructions to set up Python on Windows.
 
-3. Alternatively, you can use the provided setup script to create a virtual environment:
+3. On Unix-like systems, you can use the provided setup script to create a virtual environment:
     ```sh
     ./setup.sh
     source venv/bin/activate
     ```
 
-4. Install the required libraries:
+4. On Windows, you can use the provided setup script to create a virtual environment:
+    ```sh
+    setup.bat
+    venv\Scripts\activate
+    ```
+
+5. Install the required libraries:
     ```sh
     pip install -r requirements.txt
     ```
 
-5. Or you can install dependencies using `poetry` Instead:
+6. Alternatively, you can install dependencies using `poetry`:
     ```sh
     poetry install
     ```
 
-6. Run the chatbot:
+7. Run the chatbot:
     ```sh
     python chatbot.py
     ```
