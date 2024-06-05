@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "Charles"
+version = "0.1.0"
+description = "A chatbot that uses ChatterBot for basic conversation and GPT-2 for more advanced responses."
+authors = ["Jacob Schneider <j.p.schn703@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.19"
+chatterbot = "1.0.5"
+chatterbot_corpus = "1.2.0"
+gpt-2-simple = "0.8.0"
+tensorflow = "1.15.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
